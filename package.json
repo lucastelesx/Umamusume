@@ -1,0 +1,17 @@
+{
+  "name": "uma-musume",
+  "version": "1.0.0",
+  "description": "Making componentes for fun :D",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "author": "coelhodev <lucas_telles25@hotmial.com>",
+  "license": "ISC"
+}
