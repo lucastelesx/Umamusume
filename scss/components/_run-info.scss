@@ -37,10 +37,10 @@ body{
 	padding-right: var(--gap);
 	direction: rtl;
 	//counter-reset: section; This is awesome but not acessible .-.
-	.item{
-		display: grid;
+	.item{//change to competitor
+		display: grid;	
 		grid-template-columns: 1fr;
-		grid-template-rows: var(--fz-lg) 1fr 1fr;
+		grid-template-rows: var(--fz-lg) 60px 1fr;
 		grid-gap: var(--gap) 0px;
 		&:nth-child(1) > *{
 			background-color: var(--c-pink);
@@ -62,17 +62,24 @@ body{
 				content:counter(section);
 			} */
 		}
-		.competitor{
-
+		.competitor{//change to box or wrapper
+			>img{
+			max-width: 100%;
+			max-height: 100%;
+			margin: 0 auto;
+			display: block;
+			}
 		}
 		.name{
 			writing-mode: vertical-rl;
 			text-orientation: mixed;
+			padding: 0.3rem;
+			text-align: left;
 		}
 	}
 }
 .cup-title{
 	background-color: var(--c-black);
-    writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
 	text-orientation: mixed;
 }
